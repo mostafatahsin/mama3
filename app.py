@@ -44,17 +44,17 @@ def make_plot():
 
     citation1 = Label(x=0.3, y=1.54, x_units='data', y_units='data',
                      text='Front End firms', render_mode='css',
-                     border_line_color='black', border_line_alpha=1.0,
+                     border_line_color='#084594', border_line_alpha=1.0,
                      background_fill_color='#6baed6', background_fill_alpha=1.0)
 
     citation2 = Label(x=-0.4, y=0.95, x_units='data', y_units='data',
                      text='Back End firms', render_mode='css',
-                     border_line_color='black', border_line_alpha=1.0,
+                     border_line_color='#c18a31', border_line_alpha=1.0,
                      background_fill_color='#fbbb3c', background_fill_alpha=1.0)
 
     citation3 = Label(x=0.35, y=0.5, x_units='data', y_units='data',
                  text='Freelance', render_mode='css',
-                 border_line_color='black', border_line_alpha=1.0,
+                 border_line_color='#e65441', border_line_alpha=1.0,
                  background_fill_color='#ef6565', background_fill_alpha=1.0)
 
     p.add_layout(citation1)
