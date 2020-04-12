@@ -52,14 +52,14 @@ def make_plot():
                      border_line_color='black', border_line_alpha=1.0,
                      background_fill_color='#fbbb3c', background_fill_alpha=1.0)
 
-    # citation3 = Label(x=0.2, y=0.65, x_units='data', y_units='data',
-    #                  text='Freelance', render_mode='css',
-    #                  border_line_color='black', border_line_alpha=1.0,
-    #                  background_fill_color='#ef6565', background_fill_alpha=1.0)
+    citation3 = Label(x=0.35, y=0.5, x_units='data', y_units='data',
+                 text='Freelance', render_mode='css',
+                 border_line_color='black', border_line_alpha=1.0,
+                 background_fill_color='#ef6565', background_fill_alpha=1.0)
 
     p.add_layout(citation1)
     p.add_layout(citation2)
-    # p.add_layout(citation3)
+    p.add_layout(citation3)
 
 
     p.axis.axis_label=None
